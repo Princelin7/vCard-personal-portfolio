@@ -9,7 +9,8 @@ jobs:
   build-and-run:
     runs-on: self-hosted
 
-    steps:
+    steps: 
+    
       - name: Checkout code
         uses: actions/checkout@v3
 
