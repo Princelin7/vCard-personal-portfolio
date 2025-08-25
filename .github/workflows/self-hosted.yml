@@ -20,7 +20,7 @@ jobs:
         run: |
           docker stop portfolio-container || true
           docker rm portfolio-container || true
-          docekr container prune -f
+          docker container prune -f
 
       - name: Run Docker container
         run: |
